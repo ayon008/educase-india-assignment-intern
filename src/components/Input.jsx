@@ -1,13 +1,13 @@
 import { rubik } from '@/app/layout';
 import React from 'react';
 
-const InputField = ({ label, type, placeholder, name, disabled }) => {
+const InputField = ({ label, type, placeholder, name, disabled, required }) => {
     return (
         <>
             <div>
                 <div className="relative">
                     <label className="label absolute bg-[#F7F8F9] left-[2%] -top-[28%] px-2">
-                        <span className={`text-[#6C25FF] font-normal text-base ${rubik.className} font-medium`}>{label}</span>
+                        <span className={`text-[#6C25FF] font-normal text-base ${rubik.className} font-medium`}>{label} <span className='text-red-500'>{required && '*'}</span></span>
                     </label>
                     <input
                         type={type}
