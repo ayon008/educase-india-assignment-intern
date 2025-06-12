@@ -30,9 +30,11 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className={`bg-[#6C25FF] rounded-[6px] text-white w-full text-center font-medium ${rubik.className} py-3 cursor-pointer hover:bg-[#5A1FD9] transition-all duration-300 mt-auto`}>
-                            Create Account
-                        </button>
+                        <Link href={'/profile'} className="w-full">
+                            <button type='submit' className={`bg-[#6C25FF] rounded-[6px] text-white w-full text-center font-medium ${rubik.className} py-3 cursor-pointer hover:bg-[#5A1FD9] transition-all duration-300 mt-auto`}>
+                                Create Account
+                            </button>
+                        </Link>
                     </form>
                 </div>
             </div>
