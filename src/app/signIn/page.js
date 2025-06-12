@@ -13,8 +13,8 @@ const page = () => {
                     <form className='mt-8 w-full space-y-6'>
                         <InputField label={'Email Address'} placeholder={'Enter email address'} />
                         <InputField label={'Password'} placeholder={'Enter Password'} />
-                        <Link href={'/signIn'} className="w-full">
-                            <button className={`bg-[#6C25FF] rounded-[6px] text-white w-full text-center -mt-2 font-medium ${rubik.className} py-3 cursor-pointer hover:bg-[#5A1FD9] transition-all duration-300`}>
+                        <Link href={'/profile'} className="w-full">
+                            <button className={`bg-[#CBCBCB] rounded-[6px] text-white w-full text-center -mt-2 font-medium ${rubik.className} py-3 cursor-pointer hover:bg-[#5A1FD9] transition-all duration-300`}>
                                 Login
                             </button>
                         </Link>
