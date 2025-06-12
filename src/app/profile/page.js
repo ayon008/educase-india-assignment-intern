@@ -6,11 +6,11 @@ import camera from '../../../public/Group 1585.png'
 
 const page = () => {
     return (
-        <div className='h-screen'>
-            <div className='md:max-w-[375px] w-full mx-auto p-6'>
-                <h1 className={`${rubik.className} text-lg`}>Account Setting</h1>
+        <div className='h-screen flex flex-col pb-8 bg-[#F7F8F9]'>
+            <div className='bg-white'>
+                <h1 className={`${rubik.className} text-lg md:max-w-[375px] w-full mx-auto p-6`}>Account Setting</h1>
             </div>
-            <div className='bg-[#F7F8F9] h-full'>
+            <div className='bg-[#F7F8F9] h-full border-b-[#CBCBCB] border-b-2 border-dashed'>
                 <div className='border-b-[#CBCBCB] border-b-2 border-dashed'>
                     <div className='md:max-w-[375px] w-full mx-auto flex flex-col p-6'>
                         <div className='flex items-start gap-6'>
