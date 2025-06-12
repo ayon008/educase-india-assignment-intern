@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+.placeholder-font::placeholder {
+    font-family: var(--font-rubik) !important;
+}
