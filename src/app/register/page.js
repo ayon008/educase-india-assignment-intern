@@ -21,11 +21,11 @@ const page = () => {
                             </label>
                             <div className="flex gap-4">
                                 <div className="flex gap-2 items-center">
-                                    <input type="radio" name="isAgent" value="yes" />
+                                    <input type="radio" defaultChecked name="isAgent" className='accent-[#6C25FF]' value="yes" />
                                     <p>Yes</p>
                                 </div>
                                 <div className="flex gap-2 items-center">
-                                    <input type="radio" name="isAgent" value="no" />
+                                    <input type="radio" name="isAgent" className='accent-[#6C25FF]' value="no" />
                                     <p>No</p>
                                 </div>
                             </div>
